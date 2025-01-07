@@ -1,0 +1,40 @@
+.projects .portfolio-item {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px; /* Ensures a consistent max width */
+    margin: auto; /* Centers the card */
+}
+
+.projects .portfolio-item img {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: contain; /* Ensures the image fits within the set dimensions without cropping */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .portfolio-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 8px 0;
+}
+
+.projects .portfolio-item p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+.projects .portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
